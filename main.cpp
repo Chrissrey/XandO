@@ -133,6 +133,7 @@ int main()
                 //1-B. Display an newline to move to the next row of the board
 
         }while( playing );
+        if (winner != ' ')
         cout<<"Winner is "<<winner<<endl;
 
 
